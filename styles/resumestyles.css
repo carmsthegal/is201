@@ -1,0 +1,78 @@
+.common{
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+}
+
+.header{
+    height: 150px;
+    background-image: url(../backy.jpg);
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 
+    -1px 0px 0px rgb(0, 0, 0), /* Left */
+    1px 0px 0px rgb(0, 0, 0),  /* Right */
+    0px -1px 0px rgb(0, 0, 0), /* Top */
+    0px 1px 0px rgb(0, 0, 0);  /* Bottom */
+    line-height: 150px;
+}
+nav{
+    background-color: rgba(219, 92, 24, 0.521);
+    padding: 20px;
+    overflow: hidden;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: rgb(220, 103, 53)
+}
+
+body{
+    background-color: rgba(191, 191, 64, 0.666);
+    color: black; 
+   
+
+}
+.footer{
+    background-color: bisque;
+    color: rgb(250, 128, 114);
+    position: fixed;
+    bottom: 0;
+    left: 1px;
+    right: 1px;
+    height: 60px;
+    padding-top: 15px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.paragraph-box {
+    border: 2px solid #ccc; /* Gray border */
+    padding: 20px;         /* Space inside the box */
+    margin: 20px auto;     /* Center the box and add space around it */
+    max-width: 600px;      /* Limit the width of the box */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px;   /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.paragraph-box p {
+    margin: 0; /* Remove default paragraph margin */
+    font-size: 16px;
+    line-height: 1.6; /* Improve readability */
+    color: #333; /* Darker text color */
+}

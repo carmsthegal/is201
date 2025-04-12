@@ -1,0 +1,96 @@
+
+.common{
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+}
+
+.header{
+    height: 150px;
+    background-color: olive;
+    color: whitesmoke;
+    text-shadow: 
+    -1px 0px 0px rgb(0, 0, 0), /* Left */
+    1px 0px 0px rgb(0, 0, 0),  /* Right */
+    0px -1px 0px rgb(0, 0, 0), /* Top */
+    0px 1px 0px rgb(0, 0, 0);  /* Bottom */
+    line-height: 150px;
+    background-image: url(../headerback.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+body {
+    background-image: url(../worldmap.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.footer{
+    background-color: bisque;
+    color: rgb(250, 128, 114);
+    position: fixed;
+    bottom: 0;
+    left: 1px;
+    right: 1px;
+    height: 60px;
+    padding-top: 15px;
+}
+
+.same {
+    font-size: 30px;
+      font-weight: bold;
+      color: rgb(0, 0, 0); 
+      text-shadow: 
+    -1px 0px 0px rgb(248, 245, 245), /* Left */
+    1px 0px 0px rgb(247, 245, 245),  /* Right */
+    0px -1px 0px rgb(246, 242, 242), /* Top */
+    0px 1px 0px rgb(245, 237, 237);  /* Bottom */
+    text-align: center;
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+nav{
+    background-color: rgba(219, 92, 24, 0.521);
+    padding: 20px;
+    overflow: hidden;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: rgb(220, 103, 53)
+}
+
+.image-row {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Adjust as needed */
+}
+
+.image-item {
+    flex: 1 1 calc(33.33% - 20px); /* Three items per row */
+    text-align: center;
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+  }
+
